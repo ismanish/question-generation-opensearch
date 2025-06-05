@@ -1,0 +1,38 @@
+# API Framework
+fastapi>=0.104.0
+uvicorn>=0.23.2
+pydantic>=2.4.2
+
+# AWS Services
+boto3>=1.28.68
+
+# OpenSearch (replaces GraphRAG toolkit)
+opensearch-py>=2.3.0
+
+# Database
+psycopg2-binary
+pgvector
+
+# Embeddings and ML (optional, for future enhancements)
+torch
+sentence_transformers
+FlagEmbedding
+
+# Content Readers (optional)
+llama-index-readers-web
+
+# HTTP Requests
+requests>=2.31.0
+
+# Additional utilities
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Development dependencies (optional)
+pytest>=7.4.0
+black>=23.7.0
+isort>=5.12.0
+flake8>=6.0.0
+
+# Note: GraphRAG toolkit dependencies have been removed
+# as this version uses OpenSearch Serverless directly
